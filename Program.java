@@ -39,7 +39,7 @@ public class Program {
 
         panel.setFocusable(true);
         panel.add(label);
-        frame.add(panel);
+        frame.getContentPane().add(panel);
 
         frame.pack();
         frame.setVisible(true);
